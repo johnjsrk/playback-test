@@ -1,0 +1,25 @@
+# Gradle / 빌드 산출물
+.gradle/
+build/
+.cxx/
+.externalNativeBuild/
+
+# PC마다 다른 설정 (SDK 경로 등)
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 빌드 결과물 (APK는 GitHub Releases에 올리는 것을 권장)
+*.apk
+*.aab
+
+# 서명 키 (절대 올리지 말 것)
+*.jks
+*.keystore
+
+# OS
+Thumbs.db
+.DS_Store
